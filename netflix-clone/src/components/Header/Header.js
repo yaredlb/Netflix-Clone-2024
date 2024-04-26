@@ -29,9 +29,7 @@ const Header = () => {
                     <li><ArrowDropDownIcon /></li>
                 </ul>
             </div>
-
         </div>
-      
     </div>
   )
 }
