@@ -40,7 +40,12 @@
     margin: 10px 0;
     cursor: pointer;
 }
-.copy-right {
+.copy_right {
     font-style: 12px;
     margin-bottom: 10px;
+}
+.footer_outer_container a
+ {
+	text-decoration: none;
+	color: white;
 }
