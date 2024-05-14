@@ -37,3 +37,49 @@ function List() {
 }
 
 export default List;
+
+
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
+function BasicExample() {
+  return (
+    <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="#home">NetflixLogo</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#link">TV Shows</Nav.Link>
+            <Nav.Link href="#link">Movies</Nav.Link>
+            <Nav.Link href="#link">New & Popular</Nav.Link>
+            <Nav.Link href="#link">My List</Nav.Link>
+            <Nav.Link href="#link">Browse by Langauges</Nav.Link>
+            <NavDropdown title="Browse" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Home</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                TV Shows
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Movies</NavDropdown.Item>
+              
+              <NavDropdown.Item href="#action/3.4">
+                New & Popular
+              </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">
+                My List
+              </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">
+                Browse by Languages
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
+
+export default BasicExample;

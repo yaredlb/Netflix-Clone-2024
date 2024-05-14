@@ -24,51 +24,166 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer_data">
-          <div>
+          <div className="footer_col">
             <ul>
               <li>
-                <a href="#">Audio Description</a>
+                <a
+                  href="https://www.netflix.com/browse/audio-description
+"
+                  target="_blank"
+                >
+                  Audio Description
+                </a>
               </li>
               <li>
-                <a href="#">Investor Relations</a>
+                <a
+                  href="https://ir.netflix.net/ir-overview/profile/default.aspx
+"
+                  target="_blank"
+                >
+                  Investor Relations
+                </a>
               </li>
               <li>
-                <a href="#">Privacy</a>
+                <a
+                  href="https://help.netflix.com/legal/privacy
+"
+                  target="_blank"
+                >
+                  Privacy
+                </a>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <a
+                  href="https://help.netflix.com/en/contactus
+"
+                  target="_blank"
+                >
+                  Contact Us
+                </a>
               </li>
             </ul>
           </div>
-          <div>
+          <div className="footer_col">
             <ul>
-              <li><a href="#">Help Center</a></li>
-              <li><a href="#">Jobs</a></li>
-              <li><a href="#">Legal Notices</a></li>
-              <li><a href="#">Do Not Sell or Share My Personal Information</a></li>
+              <li>
+                <a
+                  href="https://help.netflix.com/en/
+"
+                  target="_blank"
+                >
+                  Help Center
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://jobs.netflix.com/
+"
+                  target="_blank"
+                >
+                  Jobs
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://help.netflix.com/legal/notices"
+                  target="_blank"
+                >
+                  Legal Notices
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://help.netflix.com/legal/dnsspi
+"
+                  target="_blank"
+                >
+                  Do Not Sell or Share My Personal Information
+                </a>
+              </li>
             </ul>
           </div>
-          <div>
+          <div className="footer_col">
             <ul>
-              <li><a href="#">Gift Cards</a></li>
-              <li><a href="#">Netflix Shop</a></li>
-              <li><a href="#">Cookie Preferences</a></li>
-              <li><a href="#">Ad Choices</a></li>
+              <li>
+                <a
+                  href="https://www.netflix.com/redeem
+"
+                  target="_blank"
+                >
+                  Gift Cards
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.netflix.shop/
+"
+                  target="_blank"
+                >
+                  Netflix Shop
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://help.netflix.com/legal/privacy#cookies
+"
+                  target="_blank"
+                >
+                  Cookie Preferences
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://help.netflix.com/legal/dnsspi#DAA
+"
+                  target="_blank"
+                >
+                  Ad Choices
+                </a>
+              </li>
             </ul>
           </div>
-          <div>
+          <div className="footer_col">
             <ul>
-              <li><a href="#">Media Center</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Corporate Information</a></li>
+              <li>
+                <a
+                  href="https://media.netflix.com/en/
+"
+                  target="_blank"
+                >
+                  Media Center
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://help.netflix.com/legal/termsofuse
+"
+                  target="_blank"
+                >
+                  Terms of Use
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://help.netflix.com/en/node/134094"
+                  target="_blank"
+                >
+                  Corporate Information
+                </a>
+              </li>
             </ul>
           </div>
-        </div> <br /> <br />
+        </div>{""}
+        <br /> <br />
         <div className="service_code">
-          <p><a href="#">Service Code</a></p>
+          <p>
+            <a href="#">Service Code</a>
+          </p>
         </div>
         <div className="copy_right">
-          <p><a href="#">&copy; 1997-2024 Netlfix, Inc.</a></p>
+          <p>
+            <a href="#">&copy; 1997-2024 Netlfix, Inc.</a>
+          </p>
           <h3>
             Built By: <a href="https://yaredlbekele.com/">Yared LB</a>
           </h3>

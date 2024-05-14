@@ -1,0 +1,138 @@
+/* nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: gray;
+    
+}
+.logo img{
+    height: 18px;
+    width: 25px;
+}
+nav .navbar{
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+
+}
+nav .navbar .logo a{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    text-decoration: none;
+}
+nav .navbar .nav-links{
+
+    height: 100%;
+    line-height: 70px;
+}
+nav .navbar .nav-links .links{
+display: flex;
+}
+nav .navbar .nav-links .links li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0 14px;
+}
+nav .navbar .nav-links .links li a{
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+  
+
+}
+nav .navbar .nav-links .links li .arrow{
+
+    height:100% ;
+    width: 22px;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+    transition: all 0.3s ease;
+}
+.navbar .nav-links .links li:hover .browser{
+    transform: rotate(360deg);
+}
+.navbar .nav-links .links .sub-menu {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background:#3e8da8 ;
+    line-height: 40px;
+    border-radius: 0 0 4px 4px;
+    display: none;
+}
+.navbar .nav-links .links .sub-menu li{
+    padding: 0 22px;
+}
+.navbar .nav-links .links .sub-menu li a{
+    font-size: 24px;
+    font: 500;
+}
+.navbar .nav-links .links li:hover .sub-menu{
+    display: block;
+}
+.navbar .search-box{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+.navbar .search-box .bx-search{
+    color: #fff;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+.navbar .search-box .input-box{
+    height: 60px;
+    width: 300px;
+    background: #3e8da8;
+    position: absolute;
+    top: 80px;
+    right: calc(110%-40%);
+    border-radius: 6px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.s ease;
+}
+.navbar .showInput .search-box{
+    opacity: 1;
+    pointer-events: auto;
+    top: 65px;
+}
+.navbar .search-box .input-box::before{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: red;
+    right: 10px;
+    top: -6px;
+    transform: rotate(45deg);
+}
+.navbar .search-box .input-box input{
+    position: absolute;
+    height: 35px;
+    width: 280px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 0 15px;
+
+} */
