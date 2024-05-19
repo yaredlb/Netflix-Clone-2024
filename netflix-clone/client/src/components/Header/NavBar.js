@@ -1,12 +1,5 @@
 import NetflixLogo from "../../assets/images/NetflixLogo.png";
-import {
-  Button,
-  Container,
-  Form,
-  Nav,
-  NavDropdown,
-  Navbar,
-} from "react-bootstrap";
+import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import "./Header.css";
 
 function NavBar() {
@@ -18,7 +11,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="#home">
-          <img src={NetflixLogo} width={200} alt="logo" />
+          <img src={NetflixLogo} width={100} alt="logo" />
         </Navbar.Brand>
         <Navbar.Collapse id="">
           <Nav>
@@ -47,15 +40,6 @@ function NavBar() {
               </NavDropdown>
             </div>
           </Nav>
-          {/* <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>  */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

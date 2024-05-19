@@ -6,6 +6,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import NavBar from "./NavBar";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [show, handleShow] = useState(false);
@@ -16,9 +17,7 @@ const Header = () => {
       } else handleShow(false);
     });
   }, []);
-  //   document.getElementById("search-icon").addEventListener("click", function() {
-  //     document.getElementById("search-bar").style.display = "block";
-  //   });
+
   return (
     <div className={`header_outer_container ${show && "nav_black"}`}>
       <div className="header_container">
@@ -28,105 +27,53 @@ const Header = () => {
         <div className="header_left">
           <ul>
             <li>
-              <a href="https://signup.netflix.com" target="_blank">
+              <Link to="https://signup.netflix.com" target="_blank">
                 <img src={NetflixLogo} alt="Netflix logo" width="100" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="https://www.netflix.com/browse
-"
-                target="_blank"
-              >
-                Home
-              </a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a
-                href="https://www.netflix.com/browse/genre/83
-"
-                target="_blank"
-              >
-                TV Shows
-              </a>
+              <Link to="/tv">TV Shows</Link>
             </li>
             <li>
-              <a
-                href="https://www.netflix.com/latest
-"
-                target="_blank"
-              >
-                Movies
-              </a>
+              <Link to="/movies">Movies</Link>
             </li>
             <li>
-              <a
-                href="https://www.netflix.com/latest
-"
-                target="_blank"
-              >
-                New & Popular
-              </a>
+              <Link to="/popular">New & Popular</Link>
             </li>
             <li>
-              <a
-                href="https://www.netflix.com/browse/my-list
-"
-                target="_blank"
-              >
-                My List
-              </a>
+              <Link to="/list">My List</Link>
             </li>
             <li>
-              <a
-                href="https://www.netflix.com/browse/original-audio "
-                target="_blank"
-              >
-                Browse by Languages
-              </a>
+              <Link to="/browse">Browse by Languages</Link>
             </li>
           </ul>
         </div>
-        {/* <div>
-        <select className="dropdown_menu" name="" id="">
-              <option value="home">Browse</option>
-              <option value="home">Home</option>
-              <option value="tv shows">TV Shows</option>
-              <option value="movies">Movies</option>
-              <option value="new&popular">New & Popular</option>
-              <option value="my list">My List</option>
-              <option value="browse by languages">Browse by Languages</option>
-            </select>
-        </div> */}
         <div className="header_right">
+          <div className="search_box">
+            <input type="text" placeholder="search ..." />
+            <SearchIcon className="search_outline" />
+          </div>
           <ul>
             <li>
-              {/* <input type="search" id="search-bar" /> */}
-              {/* <button type="submit">Search</button> */}
-              {/* <a onClick={"search-icon"} id="search-icon" href="#"> */}
-              <a href="#">
-                <SearchIcon />
-              </a>
+              <Link to="/kids">Kids</Link>
             </li>
             <li>
-              <a href="https://www.netflix.com/Kids" target="_blank">
-                Kids
-              </a>
-            </li>
-            <li>
-              <a href="#">
+              <Link to="#">
                 <NotificationsNoneIcon />
-              </a>
+              </Link>
             </li>
             <li className="avatar">
-              <a href="#" target="_blank">
+              <Link to="#">
                 <img src={NetflixAvatar} alt="Netflix Avatar" width="25" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" target="_blank">
+              <Link to="#">
                 <ArrowDropDownIcon />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
